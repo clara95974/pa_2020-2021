@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Sancreek-Regular';
+  src: url(./Sancreek-Regular.woff) format('woff'),
+       url(./Sancreek-Regular.woff2) format('woff2');
+}

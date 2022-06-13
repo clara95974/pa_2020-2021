@@ -1,0 +1,212 @@
+html{
+  scroll-behavior: smooth ;
+}
+body{
+  background:  #FFF3C9;
+}
+
+@font-face {
+font-family: 'Sancreek-Regular';
+src: url(fonts/Sancreek-Regular.woff) format('woff'),
+     url(fonts/Sancreek-Regular.woff2) format('woff2');
+}
+#titre{
+  font-family:'Sancreek-Regular';
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.boutton{
+  width: 250PX;
+}
+ header,footer{
+
+  /*background-image:url('../image/logo.jpg' ) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;*/
+  background: #060A33;
+  background-attachment: fixed;
+
+  /*opacity: 0.9;*/
+  color: white;
+}
+.btn-bienvenue
+{
+  /*  background: #ffffff00;*/
+    background: #BB813C;
+
+    border:white solid 1px;
+    min-width: 280px !important;
+    transition: .5s;
+    color:white !important;
+
+}
+.btn-bienvenue:hover
+{
+    transition: .5s;
+    min-width: 350px !important;
+    background:  #f56121;
+}
+
+.btn-bienvenue:focus
+{
+    outline: none;
+}
+.btn-co
+{
+   background: #ffffff00;
+   border:white solid 1px;
+   min-width: 280px ;
+   transition: .5s;
+   color:white ;
+}
+
+.btn-co:hover
+{
+    transition: .5s;
+    min-width: 350px !important;
+}
+.btn-bienvenue:focus
+{
+    outline: none;
+}
+
+.titre{
+  margin-top: 50px;
+  font-size: 30px;
+
+
+}
+#nv{
+  font-size: 25px;
+}
+#inscrip{
+  background-color:     rgb(121,48,28);
+
+    border:white solid 1px;
+    min-width: 280px !important;
+    transition: .5s;
+    color:white !important;
+
+
+}
+.btn-cnx{
+    background-color:     rgb(121,48,28);
+    margin-bottom: 30px;
+}
+#inscrip:hover{
+  transition: .5s;
+  min-width: 350px !important;
+}
+.mdp{
+  margin-bottom: 30px;
+}
+.mainco{
+  height: 710px;
+}
+.formco{
+  font-size: 20px;
+
+}
+.icone{
+
+color: white;
+margin-left: 15px;
+text-decoration: none;
+font-size: 20px;
+
+
+}
+
+.main_perso{
+  margin-top: 40PX;
+}
+
+#modifier{
+  text-decoration: none;
+  color: white;
+}
+.space{
+  margin-bottom: 10px;
+}
+.agent{
+
+  text-decoration: none;
+}
+.ajout{
+  text-decoration: none;
+  color: white ;
+
+}
+#Description{
+  height: 40PX;
+}
+#form_ajout{
+  font-size: 25PX;
+}
+.bdd{
+
+margin: 0PX;
+padding:0px;
+background: #f1f1f1;
+font-family: sans-serif
+display : flex;
+justify-content: center;
+align-items: center;
+
+}
+.btn{
+ margin: 10px;
+ padding: 20px;
+ text-align: center;
+ cursor: pointer;
+ text-transform: uppercase;
+ transition: 0.5s;
+ color: white;
+ border-radius: 10PX;
+*//*background-size: 200%;*/
+ background-image: linear-gradient(
+    to right,
+    #314775,
+    #26a0da,
+    #314755,
+    );
+   }
+/*#ajouter:hover {
+   opacity:0.5;}*/
+
+#ajouter{
+
+color:black;
+border-color: black;
+margin: 0PX;
+
+}
+#ajouter:hover{
+  background-color:  #bee4ab  ;
+}
+
+.btn-ajt{
+  background-color: green;
+}
+.les_salles{
+margin-bottom: 30px;
+}
+.btn-ajout{
+  background: red;
+}
+.btn-reserver{
+  color: black;
+  font-weight: bold;
+  border-color: #AED6F1 ;
+  font-size: 20PX;
+  font-style: italic;
+
+}
+.btn-reserver:hover{
+
+  background-color: #AED6F1 ;
+}
